@@ -2,10 +2,7 @@ fastapi==0.95.2
 uvicorn==0.22.0
 python-dotenv==1.0.0
 
-# Supabase (Pydantic v1 compatible)
-supabase==0.7.1
-
-# HTTP dependencies
+# HTTP
 httpx==0.23.3
 urllib3==1.26.18
 requests-toolbelt==0.10.1
@@ -13,9 +10,5 @@ requests-toolbelt==0.10.1
 # Data validation
 pydantic==1.10.12
 
-
-fastapi==0.95.2
-uvicorn==0.22.0
-pydantic==1.10.12
-python-dotenv
-
+# Supabase (v1 compatible)
+supabase==0.7.1
