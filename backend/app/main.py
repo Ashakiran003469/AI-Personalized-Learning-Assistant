@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
 # ✅ FIXED IMPORT
-from app.services.service import get_ai_answer
+
 
 app = FastAPI(title="AI Education Tutor - SDG 4")
 
@@ -19,7 +19,8 @@ class QuestionRequest(BaseModel):
     level: str
     subject: str
     question: str
-
+def get_ai_answer(level: str, subject: str, question: str):
+    return f"Mock answer for {subject} ({level}): {question}"
 @app.get("/")
 def root():
     return {"status": "Backend running successfully"}

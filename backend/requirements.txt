@@ -1,13 +1,8 @@
 fastapi==0.95.2
-uvicorn[standard]==0.22.0
-python-dotenv==1.0.0
-
-# HTTP
-httpx==0.23.3
-requests==2.31.0
-
-# Validation (Pydantic v1 ONLY)
+uvicorn==0.22.0
 pydantic==1.10.12
-
-# Supabase (v1 compatible)
+python-dotenv==1.0.0
+httpx==0.23.3
+urllib3==1.26.18
+requests-toolbelt==0.10.1
 supabase==0.7.1
