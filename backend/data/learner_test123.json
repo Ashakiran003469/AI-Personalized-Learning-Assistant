@@ -1,0 +1,10 @@
+{
+  "external_user_id": "test123",
+  "email": "test@student.com",
+  "full_name": "Test Student",
+  "metadata": {
+    "grade": "10",
+    "subject": "Math"
+  },
+  "created_at": "2026-01-13T12:04:06.004037"
+}
